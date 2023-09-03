@@ -1,0 +1,48 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Docker-related files and directories
+docker-compose.yml
+.dockerignore
+Dockerfile
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.pid
+*.swp
+*.swo
+*.db
+
+# Ignore system files
+*.DS_Store
+Thumbs.db
+
+# Ignore virtual environment files (if using virtualenv)
+venv/
+*.venv/
+
+# Ignore database backups
+*.db
+
+# Ignore any local development or environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore Airflow specific files
+airflow-webserver.pid
+airflow-webserver.err
+airflow.cfg
+airflow.db
+airflow.pickle
+airflow-webserver.log
+airflow-scheduler.log
+airflow-scheduler.err
+airflow-worker.log
+airflow-worker.err
+airflow.pid
+
+# Ignore .git directory (if you use submodules, you may want to remove this)
+.git/
