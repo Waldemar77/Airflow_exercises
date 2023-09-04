@@ -7,7 +7,7 @@ from subdags.subdag_downloads import subdag_downloads
 from subdags.subdag_transforms import subdag_trasforms
 
 with DAG(
-    "group_dag",
+    "subdags_example",
     schedule_interval="@daily",
     start_date=datetime(2023, 1, 1),
     catchup=False,
